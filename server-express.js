@@ -3,11 +3,11 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello d!')
+  res.send('Hello đây là trang chủ')
   console.log(`Example app listening o`)
 })
 app.get('/home2', (req, res) => {
-    res.send('Hello d!')
+    res.send('Hello đây là màn home')
     console.log(`Example app listening o`)
   })
 app.listen(port, () => {
